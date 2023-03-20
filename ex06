@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+
+{
+int x;
+int y;
+int S;
+
+printf("inserisci un numero: x ");
+scanf("%d", &x)
+printf("")
+
+
+
+}
