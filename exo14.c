@@ -4,29 +4,31 @@ int main()
 
 {
 
-    int x = 0; 
-  while(x>=0 && x<=100) 
+    int x;
+    x = 1; 
+  while(x<=100) 
   {
    if(x%3==0 && x%5==0)
 {
-    printf("fizzbuzz");
+    printf("fizzbuzz\n");
 }
 
 
 else if(x%5==0)
 {
-    printf("buzz");
+    printf("buzz\n");
 
 }
 
 else if (x%3==0 )
 {
-    printf("fizz");
+    printf("fizz\n");
 }
-else
+
+else 
 {
-    printf("%d", x);
+    printf("%d\n", x);
 }
-x++;
+x = x+1;
   }
 }
