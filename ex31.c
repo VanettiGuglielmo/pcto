@@ -2,7 +2,7 @@
 
 
 
-void Giacobbe (char *x)
+void nome (char *x)
 {
 int i = 0;
     while(x[i] != 0)
@@ -25,6 +25,6 @@ printf("%s\n", x);
 
 int main()
 {
-char x[] = "AlBerTo AngeLA";
-Giacobbe (x);
+char x[] = "parola";
+nome (x);
 }
